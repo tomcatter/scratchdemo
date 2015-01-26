@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.scratch.example"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.scratch.example.ScratchView
+        android:id="@+id/customeView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        custom:text="￥500,0000"
+        custom:textColor="#ff00f0"
+        custom:textSize="30sp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
